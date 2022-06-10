@@ -1,0 +1,17 @@
+POST http://localhost:8080/auth
+Content-Type: application/json
+
+{
+  "clientId": "client_id",
+  "clientSecret": "secret"
+}
+
+###
+
+POST http://localhost:8080/auth/token
+Content-Type: application/json
+
+{
+  "clientId": "client_id",
+  "clientSecret": "secret"
+}
